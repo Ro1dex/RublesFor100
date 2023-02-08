@@ -9,7 +9,7 @@ public class Main {
         else {
             bonus = 0;
         }
-        int balance = cash + addCash;
+        int balance = cash + addCash + bonus;
 
         System.out.println("Вас счет составляет: " + balance + " рублей." + " Бонусных рублей начислено: " + bonus);
     }
