@@ -5,8 +5,7 @@ public class Main {
         int bonus;
         if (addCash > 1000) {
             bonus = addCash / 100;
-        }
-        else {
+        } else {
             bonus = 0;
         }
         int balance = cash + addCash + bonus;
